@@ -1,0 +1,1 @@
+export const libA = () => 'library export'

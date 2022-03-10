@@ -1,0 +1,12 @@
+{
+  "name": "swc-monorepo",
+  "private": true,
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "build": "yarn workspaces foreach run build"
+  },
+  "workspaces": [
+    "./packages/*",
+    "./libs/*"
+  ]
+}
