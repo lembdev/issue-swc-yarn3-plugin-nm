@@ -1,4 +1,6 @@
-import _ from 'lodash'
 import {libA} from '@test/lib-b';
+import { concat } from '~/helpers'
 
-console.info(_.camelCase(libA()));
+console.info(
+    concat(libA(), 'from lib')
+);
